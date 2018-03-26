@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<body>
+		<script>
+			var win = prompt("Do you want windows on the house?");
+			var door = prompt("Do you want a door on the house?");
+			var chimney = prompt("Do you want a chimney on the house?");
+			//everything
+			if ((win == "yes"||win == "Yes"||win == "YES") && (door == "yes"||door == "Yes"||door == "YES") && (chimney == "yes"||chimney == "Yes"||chimney == "YES"))
+			{
+				console.log("         ~~")
+				console.log("        ~~")
+				console.log("       ~~")
+				console.log("       ||");
+				console.log("    /\\ ||");
+				console.log("   /  \\||");
+				console.log("  /    ||");
+				console.log(" /  []  \\");
+				console.log("/        \\");
+				console.log("|        |");
+				console.log("|  O  O  |");
+				console.log("|    _   |");
+				console.log("|   | |  |");
+				console.log("|___|_|__|");
+			}
+			//windows only
+			else if ((win == "yes"||win == "Yes"||win == "YES") && (door == "no"||door == "No"||door == "NO") && (chimney == "no"||chimney == "No"||chimney == "NO"))
+			{
+				console.log("    /\\");
+				console.log("   /  \\");
+				console.log("  /    \\");
+				console.log(" /  []  \\");
+				console.log("/        \\");
+				console.log("|        |");
+				console.log("|  O  O  |");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|________|");
+			}
+			//chimney only
+			else if ((win == "no"||win == "No"||win == "NO") && (door == "no"||door == "No"||door == "NO") && (chimney == "yes"||chimney == "Yes"||chimney == "YES"))
+			{
+				console.log("         ~~")
+				console.log("        ~~")
+				console.log("       ~~")
+				console.log("       ||");
+				console.log("    /\\ ||");
+				console.log("   /  \\||");
+				console.log("  /    ||");
+				console.log(" /      \\");
+				console.log("/        \\");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|________|");
+			}
+			//door only
+			else if ((win == "no"||win == "No"||win == "NO") && (door == "yes"||door == "Yes"||door == "YES") && (chimney == "no"||chimney == "No"||chimney == "NO"))
+			{
+				console.log("    /\\ ");
+				console.log("   /  \\");
+				console.log("  /    \\");
+				console.log(" /      \\");
+				console.log("/        \\");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|    _   |");
+				console.log("|   | |  |");
+				console.log("|___|_|__|");
+			}
+			//windows & door, no chimney
+			else if ((win == "yes"||win == "Yes"||win == "YES") && (door == "yes"||door == "Yes"||door == "YES") && (chimney == "no"||chimney == "No"||chimney == "NO"))
+			{
+				console.log("    /\\");
+				console.log("   /  \\");
+				console.log("  /    \\");
+				console.log(" /  []  \\");
+				console.log("/        \\");
+				console.log("|        |");
+				console.log("|  O  O  |");
+				console.log("|    _   |");
+				console.log("|   | |  |");
+				console.log("|___|_|__|");
+			}
+			//nothing
+			else if ((win == "no"||win == "No"||win == "NO") && (door == "no"||door == "No"||door == "NO") && (chimney == "no"||chimney == "No"||chimney == "NO"))
+			{
+				console.log("    /\\");
+				console.log("   /  \\");
+				console.log("  /    \\");
+				console.log(" /      \\");
+				console.log("/        \\");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|________|");
+			}
+			//door & chimney, no window
+			else if ((win == "no"||win == "No"||win == "NO") && (door == "yes"||door == "Yes"||door == "YES") && (chimney == "yes"||chimney == "Yes"||chimney == "YES"))
+			{
+				console.log("         ~~")
+				console.log("        ~~")
+				console.log("       ~~")
+				console.log("       ||");
+				console.log("    /\\ ||");
+				console.log("   /  \\||");
+				console.log("  /    ||");
+				console.log(" /      \\");
+				console.log("/        \\");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|    _   |");
+				console.log("|   | |  |");
+				console.log("|___|_|__|");
+			}
+			//window & chimney, no door
+			else if ((win == "yes"||win == "Yes"||win == "YES") && (door == "no"||door == "No"||door == "NO") && (chimney == "yes"||chimney == "Yes"||chimney == "YES"))
+			{
+				console.log("         ~~")
+				console.log("        ~~")
+				console.log("       ~~")
+				console.log("       ||");
+				console.log("    /\\ ||");
+				console.log("   /  \\||");
+				console.log("  /    ||");
+				console.log(" /  [] \\");
+				console.log("/        \\");
+				console.log("|        |");
+				console.log("|  O  O  |");
+				console.log("|        |");
+				console.log("|        |");
+				console.log("|________|");
+			}
+		</script>
+</body>
+</html>
